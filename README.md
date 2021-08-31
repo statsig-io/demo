@@ -17,6 +17,7 @@ Note: this assumes you have npm installed in your dev environment. If you don't 
 ## Rule ideas to try out
 1. Setup a rule based on user ID, and then see what happens when you change the user ID that gets passed into the Statsig API (default in `statsigNodeApp/index.js` is user ID = 1).
 2. Setup a rule that passes everyone.
+3. Setup a rule based on time of day.
 
 ## What's happening
 For more details on what's going on here, check out our [blog post on this demo](https://blog.statsig.com/demo-a-simple-node-js-app-with-feature-flags-88b05eda7447).
