@@ -9,7 +9,7 @@ Note: this assumes you have npm installed in your dev environment. If you don't 
 2. Log in to your Statsig account and create a new Feature Gate named "First App Test"
 3. Clone this repo so you can run things locally.
 4. Run `setup.sh` from within the repo - this will install some dependencies, and create some necessary directories.
-5. Open up `index.js` and replace X with your own secret key.
+5. Open up `index.js` and replace `'secret-API-KEY'` with your own secret key (you can find this in your Project Settings -> API Keys).
 6. Run `run.sh` and see the output of your new Feature Gate! Since nothing was setup, it will output false all the time since that is the default.
 7. Go back to your Statsig account where you created the Feature Gate, and add some rules.
 8. Re-run `run.sh` and see how the output from the Node app changes.
