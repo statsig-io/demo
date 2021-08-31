@@ -1,6 +1,6 @@
 # Try out Statsig!
 
-This repo is intended to make it easy for you to demo some Statsig features in your own setup, without having the write too much code - just follow the steps below.
+This repo is intended to make it easy for you to demo some Statsig features in your own setup, without having the write any code - just follow the steps below.
 
 ## Steps
 Note: this assumes you have npm installed in your dev environment. If you don't have that setup, [here are some instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
