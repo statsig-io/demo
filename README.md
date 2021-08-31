@@ -12,7 +12,7 @@ Note: this assumes you have npm installed in your dev environment. If you don't 
 5. Open up `index.js` and replace `'secret-API-KEY'` with your own secret key (you can find this in your Project Settings -> API Keys).
 6. Run `run.sh` and see the output of your new Feature Gate! Since nothing was setup, it will output false all the time since that is the default.
 7. Go back to your Statsig account where you created the Feature Gate, and add some rules so that it doesn't always fail (see below for ideas).
-8. Re-run `run.sh` and see how the output from the Node app changes.
+8. Re-run `run.sh` and see how the output from the Node app changes. You can also just leave it running and see how the output changes in real-time as you change the rules backing your Feature Gate.
 
 ## Rule ideas to try out
 1. Setup a rule based on user ID, and then see what happens when you change the user ID that gets passed into the Statsig API (default in `statsigNodeApp/index.js` is user ID = 1).
