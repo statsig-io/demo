@@ -19,5 +19,8 @@ Note: this assumes you have npm installed in your dev environment. If you don't 
 2. Setup a rule that passes everyone.
 3. Setup a rule based on time of day.
 
+## Why am I not seeing checks in the Diagnostics tab?
+The Statsig server SDK batches up to 500 events, or waits for 1 minute before flushing logs to the server.  If you want to see your checks showing live in the Statsig console, leave the programming running for over a minute, and wait a bit longer on the Diagnostics tab of the gate.
+
 ## What's happening
 For more details on what's going on here, check out our [blog post on this demo](https://blog.statsig.com/demo-a-simple-node-js-app-with-feature-flags-88b05eda7447).
